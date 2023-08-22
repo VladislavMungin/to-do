@@ -57,7 +57,7 @@ window.addEventListener('DOMContentLoaded',()=>{
                 el.classList.remove('selected')
             })
             taskList.forEach((el,i)=>{
-                if((i%2)){
+                if(!(i%2)){
                     el.classList.add('selected');
                 }
             })
