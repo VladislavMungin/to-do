@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normolize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="to-do__box">
+        <h1 class="to-do__title">
+            To-Do List
+        </h1>
+        <form id="add-task">
+            <input id="title-task" type="text" placeholder="Title...">
+            <span id="count-task">0</span>
+            <button class="add-button">Add</button>
+            
+        </form>
+        <div class="button-box">
+                <button class="button-box-item" id="delFirst">Delete first task</button>
+                <button class="button-box-item" id="delLast">Delete last task</button>
+                <button class="button-box-item" id="selectEven">Select even task</button>
+                <button class="button-box-item" id="selectOdd">Select odd task</button>
+            </div>
+        <h2 class="subtitle">Started</h2>
+        <ul class="to-do__list">
+        </ul>
+        <h2 class="subtitle">Compleated</h2>
+        <ul class="to-do__list-compl">
+        </ul>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
